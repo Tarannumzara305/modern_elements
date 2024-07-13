@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/* nav bar*/
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 30px;
+  padding-inline: 90px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 90px;
+  list-style: none;
+
+  li {
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+    }
+  }
+
+  .inactiveNav {
+    font-weight: 400;
+    color: #707070;
+  }
+}
+
+/* Footer */
+.footer {
+  padding-block: 50px 40px;
+}
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 90px;
+}
+.footerLogo {
+  width: 250px;
+}
+.footerLinksContainer {
+  margin-left: -20px;
+}
+.footerLinks {
+  list-style: none;
+  text-align: center;
+
+  li {
+    a {
+      color: #000;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+  }
+}
+.footerSocialContainer {
+  display: flex;
+  gap: 20px;
+}
+.footerSocialIcon {
+  width: 50px;
+  cursor: pointer;
+}
+.twitterIcon {
+  height: 55px;
+  width: 55px;
+}
+.divider {
+  width: 80%;
+  height: 2px;
+  background-color: #dfdfdf;
+  margin-inline: auto;
+  margin-block: 30px;
+}
+
+.footerCopyright {
+  display: flex;
+  justify-content: center;
+}
+
+.footerWithBackground {
+  background-color: #f9fafc;
+}
+
+/* other classes */
+.ctaLink {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.5s ease;
+}
+.ctaLink:hover {
+  transform: scale(1.06);
+}
+.ctaLink:ac {
+  transform: scale(1.06);
+}
+.boldText {
+  font-weight: 600;
+}

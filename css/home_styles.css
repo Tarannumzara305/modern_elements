@@ -1,0 +1,120 @@
+/* Hero Section */
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  position: relative;
+  padding-inline: 90px;
+
+  h2 {
+    margin-block: 80px 20px;
+    font-size: 60px;
+  }
+
+  h4 {
+    font-size: 20px;
+    color: #707070;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+}
+
+.heroImageContainer {
+  width: 100%;
+  /* background-color: red; */
+  margin-top: 70px;
+  position: relative;
+}
+.heroBackgroundImage {
+  position: absolute;
+  top: 80%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 60%;
+}
+.heroImage {
+  width: 550px;
+  border-radius: 20px;
+  border: 1px solid #dfdfdf;
+  -webkit-box-shadow: 10px 10px 67px -34px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 10px 10px 67px -34px rgba(255, 255, 255, 1);
+  box-shadow: 10px 10px 67px -34px rgba(255, 255, 255, 1);
+}
+
+/* Section 2 */
+.section2 {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-inline: 190px;
+}
+.section2Content {
+  margin-left: 30px;
+
+  h4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    width: 500px;
+  }
+
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #000;
+    font-weight: 600;
+  }
+}
+.section2ImageContainer {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.section2Image {
+  height: 350px;
+  width: auto;
+}
+
+/* section 3 */
+.section3 {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+/* section 4 */
+.section4 {
+  background-color: #f9fafc;
+}
+.section4Content {
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  p {
+    width: 700px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
