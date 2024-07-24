@@ -1,0 +1,45 @@
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 36px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  color: #444444;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.termsSection {
+  margin-bottom: 20px;
+}
+
+.termsList {
+  padding-left: 20px;
+}
+
+.termsList li {
+  margin-bottom: 10px;
+}
+
+.termsList li strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

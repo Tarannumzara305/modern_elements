@@ -1,0 +1,86 @@
+.section1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-inline: 190px;
+  margin-bottom: 50px;
+}
+.section1Content {
+  margin-left: 30px;
+
+  h4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    width: 500px;
+  }
+}
+.section1ImageContainer {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  width: 500px;
+  -webkit-box-shadow: 10px 10px 36px -25px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 36px -25px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 36px -25px rgba(0, 0, 0, 0.75);
+}
+.formWrapper {
+  flex: 1;
+}
+.inputForm {
+  background-color: #fff;
+  width: 500px;
+
+  border-radius: 2rem;
+  padding: 70px;
+}
+.textInput {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.queryBox {
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.button-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.contactUsButton {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 200px;
+  text-decoration: none;
+  transition: transform 0.5s ease;
+}
+.contactUsButton:hover {
+  transform: scale(1.06);
+}
+.contactUsButton:active {
+  transform: scale(1.06);
+}

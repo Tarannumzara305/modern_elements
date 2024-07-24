@@ -7,7 +7,7 @@
     <title>Modern Elements</title>
 
     <link rel="stylesheet" href="../css/root_styles.css" />
-    <link rel="stylesheet" href="../css/about_us_styles.css" />
+    <link rel="stylesheet" href="../css/contact_us_styles.css" />
 
     <link
       rel="stylesheet"
@@ -28,7 +28,7 @@
               <a href="./how_to_use.html" class="inactiveNav">How to use</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="./about_us.html" class="inactiveNav">About Us</a>
             </li>
             <li>
               <a href="./contribute.html" class="inactiveNav">Contribute</a>
@@ -44,27 +44,47 @@
     <main>
       <section class="section1">
         <div class="section1Content">
-          <h4>Who We Are</h4>
+          <h4>Contact Us</h4>
           <p>
-            We are a team of passionate developers dedicated to simplifying the
-            web development process. Our mission is to provide high-quality,
-            reusable JavaScript components that help developers build user
-            interfaces quickly and efficiently.
+            For more information, or to make a reservation, call us at
+            <span class="boldText">(987) 654-3210</span>. You may also contact
+            us via email at
+            <span class="boldText">tarannum@conestogac.on.ca</span> .
           </p>
         </div>
         <div class="section1ImageContainer">
-          <img src="../images/office.jpg" alt="" class="section1Image" />
-        </div>
-      </section>
-      <section class="section2">
-        <div class="section2Content">
-          <h2>Trusted by the Developer Community</h2>
-          <p>
-            Join thousands of developers who trust our components to speed up
-            their development process. Read testimonials and case studies to see
-            how our library is making a difference.
-          </p>
-          <a href="#" class="ctaLink">Contact Us</a>
+          <!-- <img src="../images/office.jpg" alt="" class="section1Image" /> -->
+          <div class="formWrapper">
+            <div class="inputForm">
+              <form class="contactUsForm">
+                <input
+                  type="text"
+                  class="textInput"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="textInput"
+                  placeholder="Email"
+                  required
+                />
+                <input
+                  type="tel"
+                  class="textInput"
+                  placeholder="Phone Number"
+                  required
+                />
+                <textarea
+                  class="queryBox"
+                  rows="6"
+                  placeholder="Query"
+                  required
+                ></textarea>
+                <button class="contactUsButton" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -80,7 +100,7 @@
             <li><a href="../index.html">Home</a></li>
             <li><a href="#">Components</a></li>
             <li><a href="./how_to_use.html">How to use</a></li>
-            <li><a href="#">About Us </a></li>
+            <li><a href="./about_us.html">About Us </a></li>
             <li><a href="./contribute.html">Contribute </a></li>
             <li><a href="./contact_us.html">Contact Us</a></li>
             <li><a href="./terms_of_use.html">Terms of Use</a></li>

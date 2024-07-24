@@ -5,10 +5,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 body {
   overflow-x: hidden;
-  font-family: "Poppins", sans-serif;
 }
 
 /* nav bar*/
@@ -118,7 +118,7 @@ body {
 .ctaLink:hover {
   transform: scale(1.06);
 }
-.ctaLink:ac {
+.ctaLink:active {
   transform: scale(1.06);
 }
 .boldText {
